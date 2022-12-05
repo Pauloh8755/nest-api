@@ -74,10 +74,10 @@ Nest is [MIT licensed](LICENSE).
 
 ## RESUMO
 ```
-#Instalar o CLI do no NestJS
+# Instalar o CLI do no NestJS
 npm i -g @nestjs/cli 
 
-#Iniciar projeto
+# Iniciar projeto
 nest new project-name
 
 # Startar projeto
@@ -93,7 +93,6 @@ nest g resource
     - app.module.ts - Module raiz da app
     - app.service.ts - servico basico
     - main.ts - Instanciacão do NestJS
-
 
 
 
