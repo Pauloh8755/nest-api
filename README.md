@@ -73,24 +73,27 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 Nest is [MIT licensed](LICENSE).
 
 ## RESUMO
-# Instalar o CLI do no NestJS
+```
+#Instalar o CLI do no NestJS
 npm i -g @nestjs/cli 
 
-# Iniciar projeto
+#Iniciar projeto
 nest new project-name
 
 # Startar projeto
 npm run start
 
-# Estrutura
-- src
-    app.controller.spec.ts - Arquivo para testes
-    app.controller.ts - Rota
-    app.module.ts - Module raiz da app
-    app.service.ts - servico basico
-    main.ts - Instanciacão do NestJS
+# Gerar crud em uma pasta com | dto | entities | controllers | service
+nest g resource 
+```
+## Estrutura
+- src:
+    - app.controller.spec.ts - Arquivo para testes
+    - app.controller.ts - Rota
+    - app.module.ts - Module raiz da app
+    - app.service.ts - servico basico
+    - main.ts - Instanciacão do NestJS
 
-# CRUD
-nest g resource - Gera crud em uma pasta com | dto | entities | controllers | service
+
 
 
